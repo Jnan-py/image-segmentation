@@ -9,7 +9,8 @@ The dataset used is **Human Segmentation Dataset**, which includes paired image 
 Make sure to download the dataset and place the zipped file as:
 
 ```
-Human-Segmentation-Dataset-master.zip
+Ground_Truth.zip
+Training_Images.zip
 ```
 
 The script will extract and use it automatically.
@@ -52,7 +53,7 @@ See [`requirements.txt`](./requirements.txt) for all dependencies.
    source venv/bin/activate   # On Windows: venv\Scripts\activate
    ```
 
-3. Ensure that `Human-Segmentation-Dataset-master.zip` is in the root directory.
+3. Ensure that zip files are in the root directory.
 
 4. **Install required dependencies:**
 
@@ -80,10 +81,11 @@ The script includes functions to:
 
 ```
 .
-├── Human-Segmentation-Dataset-master.zip
-├── segmentation.py
-├── best_pts.pt
-├── pred_mask.png
+├── Ground_Truth.zip
+├── Training_Images.zip
+├── Image_Segmentation.ipynb
+├── Ground_Truth
+├── Training_Images
 ├── README.md
 └── requirements.txt
 ```
